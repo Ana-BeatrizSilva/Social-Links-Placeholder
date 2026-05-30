@@ -1,0 +1,108 @@
+body{
+    color: white;
+    background-color: #3530cf;
+    background: linear-gradient(135deg,#050816,
+        #111844,
+        #1c3faa,
+        #2563eb);
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 1.5;
+    min-height: 100vh;
+}
+
+.main-container{
+    background-color: #24B1B1; 
+    background: rgba(255, 255, 255, 0.08);
+    backdrop-filter: blur(15px);
+    height: 600px;
+    width: 350px;
+    padding: 30px;
+    border-radius: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    text-align: center;
+}
+
+.main-title{
+    font-size: 25px;
+    margin-top: 20px;
+}
+
+.sub-title{
+    font-size: 12px;
+    margin-bottom: 20px;
+}
+
+p{
+    font-size: 15px;
+}
+
+.profile-image{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.social-buttons{
+    font-size: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.1px;
+}
+
+.social-buttons a:hover{
+    background: #1c3faa;
+    transform: translateY(-2px);
+}
+
+a{
+    text-decoration: none;
+}
+
+.github-btn{
+    color: white;
+    padding: 14px;
+    width: 100px;
+    font-weight: bold;
+    background:rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255,255,255,0.1);
+    border-radius: 20px;
+    transition: 0.3s ease;
+}
+
+.linkedin-btn{
+    color: white;
+    padding: 14px;
+    width: 100px;
+    font-weight: bold;
+    background:rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255,255,255,0.1);
+    border-radius: 20px;
+    transition: 0.3s ease;
+}
+
+.twitter-btn{
+    color: white;
+    padding: 14px;
+    width: 100px;
+    font-weight: bold;
+    background:rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255,255,255,0.1);
+    border-radius: 20px;
+    transition: 0.3s ease;
+}
+
+.instagram-btn{
+    color: white;
+    padding: 14px;
+    width: 100px;
+    font-weight: bold;
+    background:rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255,255,255,0.1);
+    border-radius: 20px;
+    transition: 0.3s ease;
+}
