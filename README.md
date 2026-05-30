@@ -6,6 +6,8 @@
 
 ![Social Links Placeholder](media/social%20links%20image.png)
 
+• GitHub Pages Link: https://ana-beatrizsilva.github.io/Social-Links-Placeholder/
+
 ---
 
 # Português
